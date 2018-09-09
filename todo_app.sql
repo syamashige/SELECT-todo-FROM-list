@@ -97,7 +97,8 @@ DELETE FROM tasks
     WHERE title LIKE '%mistake%';
 
 -- Select all fields of all tasks sorted by 'title' in ascending order 
-SELECT title 
-    FROM tasks;
+SELECT * 
+    FROM tasks 
+    ORDER BY title;
 
 
